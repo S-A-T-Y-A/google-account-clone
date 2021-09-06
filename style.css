@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.user img{
+    width: 100px;
+    border-radius: 100%;
+}
+.user h1{
+    font-size: 2em;
+    font-weight: 600;
+}
+.card{
+    flex-basis: 30em !important;
+    border-radius: 10px !important;
+    cursor: pointer;
+    
+}
+.card-content{
+    flex-basis: 100%;
+}
+.card-content h2{
+    font-size: 1.8em;
+}
+.card-content p{
+    font-size: 0.94em;
+}
+.card-img{
+    flex-basis: 50%;
+}
+.card-footer{
+    transition: all 0.2s ease-in-out ;
+    cursor: pointer;
+}
+.card-footer p{
+    font-weight: 600;
+}
+.card-footer:hover{
+    background-color: rgb(228, 228, 228) !important;
+}

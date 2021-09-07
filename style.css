@@ -12,11 +12,54 @@
     font-size: 2em;
     font-weight: 600;
 }
+
 .card{
-    flex-basis: 30em !important;
-    border-radius: 10px !important;
+    flex-basis: 45% !important;
+    min-width: 19em !important;
+    min-height: 240px !important;
+    max-height: 240px !important;
+    border-radius: 7px  !important;
+    
+   
     cursor: pointer;
     
+}
+.card-title{
+    font-size: 1.4em !important;
+    
+    
+}
+.card-text{
+    font-size: 0.9em !important;
+}
+.card-footer{
+    font-size: 1em !important;
+    border-radius: 0px 0px 7px 7px !important;
+}
+@media (max-width:1000px){
+    .card{
+        flex-basis: 90% !important;
+    }
+    .user h1{
+        font-size: 1.7em;
+    }
+}
+@media (max-width:450px){
+    .user h1{
+        font-size: 1em;
+    }
+    .card-title{
+        font-size: 1.3em !important;
+    }
+    .card-text{
+        font-size: 0.8em !important;
+    }
+    .card-footer{
+        font-size: 0.9em !important;
+    }
+    .user p{
+        font-size: small;
+    }
 }
 .card-content{
     flex-basis: 100%;
@@ -39,4 +82,15 @@
 }
 .card-footer:hover{
     background-color: rgb(228, 228, 228) !important;
+}
+.reading-bar{
+    width: 90%;
+}
+.progress{
+    max-width: 100%;
+    height: 5px;
+    
+}
+.reading-bar p{
+    font-size: 0.8em;
 }

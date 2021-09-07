@@ -17,12 +17,9 @@
     flex-basis: 45% !important;
     min-width: 19em !important;
     min-height: 250px !important;
-    max-height: 250px !important;
+    height: fit-content;
     border-radius: 7px  !important;
-    
-   
     cursor: pointer;
-    
 }
 .card-title{
     font-size: 1.4em !important;

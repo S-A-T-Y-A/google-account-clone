@@ -17,7 +17,7 @@
     flex-basis: 45% !important;
     min-width: 19em !important;
     min-height: 250px !important;
-    height: fit-content;
+    height: fit-content !important;
     border-radius: 7px  !important;
     cursor: pointer;
 }
